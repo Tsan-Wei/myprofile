@@ -18,6 +18,8 @@
 
 <script>
 import { TimelineLite, Power2, Expo } from 'gsap'
+import { gsap, CSSPlugin } from 'gsap/all'
+gsap.registerPlugin(CSSPlugin)
 export default {
     name: "main",
     data(){
