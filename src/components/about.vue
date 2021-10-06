@@ -19,7 +19,7 @@
             <a href="https://drive.google.com/file/d/16kekzZpNrj7b8L65OCuv9LVSL8bhNQkl/view?usp=sharing" class="cv">download my cv</a>
         </div>
         <div class="right">
-            <p>傳播媒體科系出身的我，喜歡觀察時事，對周遭發生的事物具有一定的敏感度，能夠迅速抓到重點並快速執行，喜歡團隊合作，遇到難題時能讓自己保持不同角度的思考方式，重視效率在專案中常擔任執行者的角色</p>
+            <p>我是程璨偉，畢業於世新大學傳播管理學系，傳播媒體科系出身的我，樂於鑽研各種新奇事物，喜歡觀察時事，對周遭發生的事物具有一定的敏感度，在學期間參加過許多系上的活動並加入系學會，在各活動中擔任許多職位如總召、活動長...等．對事情能夠迅速抓到重點並且快速執行，喜歡團隊合作，遇到難題時能讓自己保持不同角度的思考方式，重視效率．通常在團隊裡常擔任執行者的角色</p>
         </div>
     </div>
 </template>
@@ -57,7 +57,7 @@ export default {
     position: absolute;
     bottom: 20%;
     right: 5%;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 3;
     text-align: left;
     background: rgba(204, 204, 204, 0.288);
