@@ -31,7 +31,7 @@ export default {
                 text : "使用 html / css / javascript / jquery / vue.js / php / mysql / ajax ",
                 link : 'https://tibamef2e.com/tfd102/project/g3/page/homepage.html',
                 id : "more"},
-                {img : require('../assets/sign-up.jpg'), 
+                {img : require('../assets/main.png'), 
                 title : 'WEI profile -- 個人介紹網頁',
                 text : "使用 vue.js / vue.cli / gsap",
                 link : '#',
@@ -76,16 +76,19 @@ img{
     margin-bottom: 30px;
 }
 .area5{
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .main{
+    width: 500px;
     display: flex;
     margin-top: 150px;
 }
 .item{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

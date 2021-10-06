@@ -6,13 +6,17 @@
         <div class="left">
             <img src="../assets/me.jpg" alt="">
             <div class="icons">
-                <i class="fab fa-github">
-                    <a href=""></a>
-                </i>
-                <i class="fas fa-envelope-open-text"></i>
-                <i class="fas fa-phone-alt"></i>
+                <a href="https://github.com/a88376219">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+                   <i class="fas fa-envelope-open-text"></i>
+                </a>
+                <a href="https://github.com/a88376219">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
             </div>
-            <a href="https://drive.google.com/file/d/16kekzZpNrj7b8L65OCuv9LVSL8bhNQkl/view?usp=sharing">download my cv</a>
+            <a href="https://drive.google.com/file/d/16kekzZpNrj7b8L65OCuv9LVSL8bhNQkl/view?usp=sharing" class="cv">download my cv</a>
         </div>
         <div class="right">
             <p>傳播媒體科系出身的我，喜歡觀察時事，對周遭發生的事物具有一定的敏感度，能夠迅速抓到重點並快速執行，喜歡團隊合作，遇到難題時能讓自己保持不同角度的思考方式，重視效率在專案中常擔任執行者的角色</p>
@@ -73,7 +77,7 @@ export default {
     justify-content: space-evenly;
     margin-top: 50px;
 }
-.area2 .left .icons i{
+.area2 .left .icons a{
     width: 50px;
     height: 50px;
     color: black;
@@ -83,12 +87,12 @@ export default {
     cursor: pointer;
 
 }
-.area2 .left .icons i:hover{
+.area2 .left .icons a:hover{
     background: #472425;
     color: white;
     transform: scale(1.2);
 }
-a{
+.cv{
     width: 80%;
     height: 40px;
     border: solid 2px #4d292b;
@@ -99,8 +103,9 @@ a{
     text-decoration: none;
     transition: all .3s ease-in-out;
     font-weight: bold;
+
 }
-a:hover{
+.cv:hover{
     background: #472425;
     color: white;
     letter-spacing: 5px;
